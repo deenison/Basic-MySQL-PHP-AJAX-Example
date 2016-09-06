@@ -8,6 +8,15 @@ I found this one to be simple enough to explain very basically via example a cou
 
 Happy coding :)
 
+## Summary
+- [Le problematic](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example#le-problematic)
+- [Proposed solution](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example#proposed-solution)
+- [What this example do](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example#proposed-solution)
+- [Requirements](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example#proposed-solution)
+- [Getting started](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example#getting-started)
+- [Contributing](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example#contributing)
+- [License](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example#license)
+
 ## Le problematic
 There's a simple form with a couple of nested `<select>`'s. So everytime the main element has its selected option changed, a couple of other elements have their options changed as well on the fly. One of these children is special because each of its options have their own image to be displayed alongside a short description.
 Long story short then, the `<option>`s from one of these `<select>`-children should be dinamically created based on a specific DB (in MySQL) query using as one of the query arguments the parent-selected value.
@@ -34,6 +43,13 @@ And yes, it differs a little bit from the proposed solution, but I think ilustra
 - `Apache` or `Nginx`
 - `PHP`: `^5.6`
 - `MySQL`: `^5.4`
+
+## Getting started
+- Download/clone the latest version of the project from `master` branch;
+- Let's call `$projectPath` the place where you gonna run the project;
+- Create a database (using UTF-8 encoding) and import the file `$projectPath/misc/dump.sql` into it;
+- Edit `$projectPath/constants.php` to match your local environment settings;
+- That sould be it.
 
 ## Contributing
 Feel free to contribute in any way by [creating an issue](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example/issues/new), cloning the project, creating your own branches and sending pull requests or even [saying hello](https://github.com/deenison).
