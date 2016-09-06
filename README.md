@@ -8,6 +8,15 @@ I found this one to be simple enough to explain very basically via example a cou
 
 Happy coding :)
 
+## Summary
+- [Le problematic](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example#le-problematic)
+- [Proposed solution](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example#proposed-solution)
+- [What this example do](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example#proposed-solution)
+- [Requirements](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example#proposed-solution)
+- [Getting started](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example#getting-started)
+- [Contributing](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example#contributing)
+- [License](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example#license)
+
 ## Le problematic
 There's a simple form with a couple of nested `<select>`'s. So everytime the main element has its selected option changed, a couple of other elements have their options changed as well on the fly. One of these children is special because each of its options have their own image to be displayed alongside a short description.
 Long story short then, the `<option>`s from one of these `<select>`-children should be dinamically created based on a specific DB (in MySQL) query using as one of the query arguments the parent-selected value.
