@@ -35,6 +35,13 @@ And yes, it differs a little bit from the proposed solution, but I think ilustra
 - `PHP`: `^5.6`
 - `MySQL`: `^5.4`
 
+## Getting started
+- Download/clone the latest version of the project from `master` branch;
+- Let's call `$projectPath` the place where you gonna run the project;
+- Create a database (using UTF-8 encoding) and import the file `$projectPath/misc/dump.sql` into it;
+- Edit `$projectPath/constants.php` to match your local environment settings;
+- That sould be it.
+
 ## Contributing
 Feel free to contribute in any way by [creating an issue](https://github.com/deenison/Basic-MySQL-PHP-AJAX-Example/issues/new), cloning the project, creating your own branches and sending pull requests or even [saying hello](https://github.com/deenison).
 
