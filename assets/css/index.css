@@ -1,0 +1,9 @@
+main {
+    margin-top: 25px;
+}
+
+img.flag {
+    width: 35px;
+    border: 1px solid #ccc;
+    margin-top: -2px;
+}
